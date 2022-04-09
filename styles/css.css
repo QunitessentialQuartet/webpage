@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Nyata;
+    src: url(NyataFTR-Regular.otf);
+}
+
+body {
+    margin: 0px;
+    font-family: Nyata;
+}
+
+#title {
+    text-align: center;
+    min-width: 100%;
+    padding-top: 15rem;
+    font-size: 2em;
+}
+
+#vision {
+    display: flex;
+    text-align: center;
+    min-width: 100%;
+    padding-top: 40rem;
+    font-size: 1.5em;
+}
+
+.leftcol {
+    min-width: 50%;
+    margin-left: 20px;
+    padding-top: 5%;
+}
+
+.rightcol {
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    margin-right: 20px;
+}
+
+.abox {
+    background-color:lightcoral;
+    border-radius: 25px;
+    padding: .75em;
+    margin: 5px 0 5px 0;
+}
+
+#background {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+  
