@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>DeSo Test</title>
+        <title>Nakano</title>
         <meta charset="utf-8" />
         <link rel='stylesheet' type="text/css" href="styles/css.css" />
     </head>
     <body>
+        <img id="menuimg" src="public/nakano.webp" />
         <div id="menu">
-            <img src="public/nakano.webp" />
+            <a href="#vlink">Vision</a>
+            <a href="#purpose">Purpose</a>
+            <a href="#features">Features</a>
+            <a href="#teammembers">Team Members</a>
+            <a href="./form.html">Register as a Tutor</a>
         </div>
 
-        <div class="leftcol">
-            <div id="title">
-                <h1><b class="colorletter">N</b>akano</h1>
-                <h3>Empower Your Peers.</h3>
-            </div>
+        <div id="title">
+            <h1><b class="colorletter">N</b>akano</h1>
+            <h3>Empower Your Peers.</h3>
         </div>
 
         <div id="vision">
-            <h2 class="leftcol"><b class="colorletter">V</b>ision</h2>
+            <div class="leftcol" id="vlink">
+                <h2><b class="colorletter">V</b>ision</h2>
+                <img src="public/graph.png" />
+            </div>
             <div class="rightcol">
                 <div class="abox">
                     <h3>What?</h3>
@@ -44,16 +50,53 @@
             </div>
         </div>
 
-        <h2 id="teamhead">Team Members</h2>
+        <h2 class="sectionhead"><b class="colorletter">P</b>urpose</h2>
+        <div id="purpose">
+            <div class="leftcol abox">
+                <p>School is hard, especially if you have no one to help you through it. Tutors are an essential part of one's success.</p>
+                <p>Meanwhile, the tutors who produce vital teaching content are underpaid, under-engaged, and under-valued thanks to an outdated institutional model.</p>
+                <p>We believe all of these problems can be solved by decentralizing teaching content in the same way Bitcoin and Ethereum are decentralizing the financial system</p>
+            </div>
+            <div id="articles" class="rightcol abox">
+                IES: <a href="https://nces.ed.gov/pubs2010/2010023.pdf" target="_blank">Statistics in Brief: Students' Use of Tutoring Services, by Adequate Yearly Progress Status of School</a>
+                Indeed: <a href="https://www.indeed.com/career/teacher/salaries" target="_blank">Teacher Salary in United States</a>
+                Patriot: <a href="https://www.patriotsoftware.com/blog/accounting/average-cost-living-by-state/" target="_blank">The Average Cost of Living by State, and Why Ignoring it Could Sink Your Business</a>
+                Guardian: <a href="https://www.theguardian.com/world/2021/oct/04/teachers-quitting-jobs-covid-record-numbers" target="_blank">Exhausted and underpaid’: teachers across the US are leaving their jobs in numbers</a>
+            </div>
+        </div>
+        <div class="abox" id="srcs">
+            <img class="talllogo" src="public/ies.png" />
+            <img class="shortlogo" src="public/guardian.png" />
+            <img class="talllogo" src="public/indeed.png" />
+            <img class="shortlogo" src="public/patriot.png" />
+        </div>
+
+        <h2 class="sectionhead"><b class="colorletter">F</b>eatures</h2>
+        <div id="features">
+            <div class="abox">
+                <h3>Tipping Tutors</h3>
+                <p>Support your tutors and the knowledge they are spreading by social tipping with $nakano coins. Each tip is matched by the Founders' Fund to send to educational charities, such as Teaching America and UNICEF.</p>
+            </div>
+            <div class="abox">
+                <h3>Independence</h3>
+                <p>Tutors will have their accounts and spaces to promote their educational content. We can solve a collective action problem among independent publishers by making it individually rational for them to contribute their content to a new globally-shared pool.</p>
+            </div>
+            <div class="abox">
+                <h3>Outreach</h3>
+                <p>Give tutors tools and a platform to reach students en masse.  We believe we can create an economy of scale around that blockchain that is powerful enough to rival, and ultimately surpass, what the traditional academia giants have created.</p>
+            </div>
+        </div>
+
+        <h2 class="sectionhead"><b class="colorletter">T</b>eam <b class="colorletter">M</b>embers</h2>
         <div id="teammembers">
             <div class="abox">
-                <h4>Ethan Grantz</h4>
+                <h3>Ethan Grantz</h3>
                 <img class="profile" src="public/najimi.webp" alt="Ethan Grantz" />
                 <p>Major(s): BS Computer Science</p>
                 <a href="https://github.com/ephing" target="_blank">GitHub</a>
             </div>
             <div class="abox">
-                <h4>Aubree Grantz</h4>
+                <h3>Aubree Grantz</h3>
                 <img class="profile" src="public/najimi.webp" alt="Aubree Grantz" />
                 <p>Major(s): BS Finance<br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MBA<br />
@@ -61,14 +104,14 @@
                 <a href="https://github.com/ajg176" target="_blank">GitHub</a> 
             </div>
             <div class="abox">
-                <h4>James Hurd</h4>
+                <h3>James Hurd</h3>
                 <img class="profile" src="public/najimi.webp" alt="James Hurd" />
                 <p>Major(s): BS Computer Science<br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BS Math</p>
                     <span><a href="https://jameshurd.net" target="_blank">JamesHurd.net</a></span><br />
             </div>
             <div class="abox">
-                <h4>Sandy Osana</h4>
+                <h3>Sandy Osana</h3>
                 <img class="profile" src="public/najimi.webp" alt="Sandy Osana" />
                 <p>Major(s): BS Computer Science<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BA Math, Literature</p>

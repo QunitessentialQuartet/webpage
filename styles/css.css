@@ -13,22 +13,32 @@ body {
 
 /* MENU */
 #menu {
-    position: absolute;
+    position: fixed;
     background-color: #0101102f;
+    padding: 20px;
+    padding-left: 150px;
     min-width: 100%;
+    z-index: 2;
 }
 
-#menu img {
+#menuimg {
+    position: fixed;
     float: left;
     margin: 0;
     max-height: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color:blanchedalmond;
+    margin: 20px;
 }
 
 /* TITLE */
 #title {
     text-align: center;
     min-width: 100%;
-    padding-top: 4rem;
+    padding-top: 15rem;
 }
 
 #title h1 {
@@ -57,14 +67,18 @@ body {
     font-size: 1.5em;
 }
 
-#vision h2 {
+#vision .leftcol {
     font-size: 3em;
+}
+
+#vlink h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .leftcol {
     min-width: 50%;
     margin-left: 20px;
-    padding-top: 5%;
 }
 
 .rightcol {
@@ -77,20 +91,71 @@ body {
 .abox {
     background-color:rgba(247, 144, 241, 0.479);
     border-radius: 25px;
-    padding: .25em;
-    margin: 15px 0 15px 0;
+    box-shadow: 0 0 5px rgba(247, 144, 241, 0.479);
+    padding: .35em;
+    margin: 15px 5px 15px 5px;
     text-align:center
 }
 
-#teammembers {
+/* PURPOSE */
+#purpose {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.sectionhead {
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#srcs {
+    background-color:rgba(247, 144, 242, 0.637);
+}
+
+#srcs img {
+    max-height: 100px;
+    max-width: 24%;
+}
+
+.shortlogo {
+    margin: 5px 5px 20px 5px;
+}
+
+.talllogo {
+    margin: 5px 5px 5px 5px;
+}
+
+#articles {
+    text-align: justify;
+}
+
+#articles a {
+    font-size: medium;
+    margin: 10px 10px;
+}
+
+/* FEATURES */
+#features {
     display: flex;
     justify-content: center;
 }
 
-#teamhead {
-    padding-top: 10em;
-    font-size: 2em;
-    text-align: center;
+#features .abox {
+    max-width: 25%;
+    padding: 1.5rem;
+    font-size: 1.1em;
+}
+
+#features .abox p {
+    text-align: justify;
+    box-shadow: 1px 1px 1 #010110;
+}
+
+/* TEAM MEMBERS */
+#teammembers {
+    display: flex;
+    justify-content: center;
 }
 
 #teammembers div {
@@ -131,12 +196,6 @@ body {
 }
   
 /*
-1. Top menu bar will be transparent
-2. The very top left of the menu bar will have our logo (WIP)
-3. The buttons of the menu bar wil simply be white text
-4. Most of the menu bar buttons send you to tags (smooth scrolling on the page)
-5. OPTIONAL: The boxes with a lot of text are transparent with blur radius
-6. Complete the vision section 
 7. New section will say what DeSo is and how we are using it (lots of buzzwords, I can help)
 8. Section after DeSo will have a list of features: tipping tutors, outreach, independence (+ graphs)
 9. Section after that will focus on philantropy (founders's fund matches 10% of tips and send to educational charities)
