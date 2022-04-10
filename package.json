@@ -1,0 +1,11 @@
+{
+	"name" : "nakano",
+	"author" : "QunitessesntialQuartet",
+	"dependencies" : {
+		"express" : "^4.16.1"
+	},
+	"main" : "server.js",
+	"scripts" : { 
+		"start" : "node server.js"
+	}
+}
