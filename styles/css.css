@@ -31,7 +31,12 @@ body {
 #menu a {
     text-decoration: none;
     color:blanchedalmond;
-    margin: 20px;
+    padding: 20px;
+}
+
+#menu a:hover {
+    background-color: #0101106c;
+    transition: .3s;
 }
 
 /* TITLE */
@@ -69,11 +74,6 @@ body {
 
 #vision .leftcol {
     font-size: 3em;
-}
-
-#vlink h2 {
-    margin-top: 0;
-    margin-bottom: 5px;
 }
 
 .leftcol {
@@ -234,6 +234,23 @@ textarea {
 /* Footer */
 #footer {
     text-align:center;
+    font-size: xx-large;
+    padding: 20rem 10rem 15rem 10rem;
+}
+
+#links {
+    text-align: center;
+    background-color: #0101102f;
+    min-width: 100%;
+    min-height: 50px;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+#links a {
+    text-decoration: none;
+    padding: 20px;
+    color:blanchedalmond;
 }
 
 #background {
@@ -244,10 +261,3 @@ textarea {
     min-width: 100%;
     min-height: 100%;
 }
-  
-/*
-7. New section will say what DeSo is and how we are using it (lots of buzzwords, I can help)
-8. Section after DeSo will have a list of features: tipping tutors, outreach, independence (+ graphs)
-9. Section after that will focus on philantropy (founders's fund matches 10% of tips and send to educational charities)
-12. Lowest part will have a collection of social buttons and stuff
-*/
