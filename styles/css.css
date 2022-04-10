@@ -2,25 +2,63 @@
     font-family: Nyata;
     src: url(NyataFTR-Regular.otf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 body {
-    margin: 0px;
+    margin: 0;
     font-family: Nyata;
+    color:blanchedalmond;
+    text-shadow: 2px 2px 2px #010110;
 }
 
+/* MENU */
+#menu {
+    position: absolute;
+    background-color: #0101102f;
+    min-width: 100%;
+}
+
+#menu img {
+    float: left;
+    margin: 0;
+    max-height: 50px;
+}
+
+/* TITLE */
 #title {
     text-align: center;
     min-width: 100%;
-    padding-top: 15rem;
-    font-size: 2em;
+    padding-top: 4rem;
 }
 
+#title h1 {
+    font-size: 6rem;
+    margin: 40px 0 40px 0;
+    text-shadow: 4px 4px 4px #010110
+}
+
+.colorletter {
+    color: #f566c3;
+}
+
+#title h3 {
+    font-size: 1.5rem;
+    transform: scale(1, 1.8);
+    margin: 20px 0 20px 0;
+    font-family: Inter;
+}
+
+/* VISION */
 #vision {
     display: flex;
     text-align: center;
     min-width: 100%;
-    padding-top: 40rem;
+    padding-top: 30rem;
     font-size: 1.5em;
+}
+
+#vision h2 {
+    font-size: 3em;
 }
 
 .leftcol {
@@ -37,10 +75,50 @@ body {
 }
 
 .abox {
-    background-color:lightcoral;
+    background-color:rgba(247, 144, 241, 0.479);
     border-radius: 25px;
-    padding: .75em;
-    margin: 5px 0 5px 0;
+    padding: .25em;
+    margin: 15px 0 15px 0;
+    text-align:center
+}
+
+#teammembers {
+    display: flex;
+    justify-content: center;
+}
+
+#teamhead {
+    padding-top: 10em;
+    font-size: 2em;
+    text-align: center;
+}
+
+#teammembers div {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+.profile {
+    border-radius: 50%;
+    max-width:200px;
+}
+
+.abox h4 {
+    text-align: center;
+}
+
+.abox p {
+    text-align: left;
+}
+
+.abox a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+/* Footer */
+#footer {
+    text-align:center;
 }
 
 #background {
@@ -52,3 +130,15 @@ body {
     min-height: 100%;
 }
   
+/*
+1. Top menu bar will be transparent
+2. The very top left of the menu bar will have our logo (WIP)
+3. The buttons of the menu bar wil simply be white text
+4. Most of the menu bar buttons send you to tags (smooth scrolling on the page)
+5. OPTIONAL: The boxes with a lot of text are transparent with blur radius
+6. Complete the vision section 
+7. New section will say what DeSo is and how we are using it (lots of buzzwords, I can help)
+8. Section after DeSo will have a list of features: tipping tutors, outreach, independence (+ graphs)
+9. Section after that will focus on philantropy (founders's fund matches 10% of tips and send to educational charities)
+12. Lowest part will have a collection of social buttons and stuff
+*/

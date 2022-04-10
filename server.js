@@ -7,8 +7,16 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, './index.html'))
 });
 
-app.get('/public/nakano_background.webm', function(req, res){
-    res.sendFile(path.join(__dirname, './public/nakano_background.webm'))
+app.get('/favicon.ico', function(req, res){
+    res.sendFile(path.join(__dirname, './favicon.ico'))
+});
+
+app.get('/public/najimi.webp', function(req, res){
+    res.sendFile(path.join(__dirname, './public/najimi.webp'))
+});
+
+app.get('/public/nakano.webp', function(req, res){
+    res.sendFile(path.join(__dirname, './public/nakano.webp'))
 });
 
 app.get('/styles/css.css', function(req, res){
