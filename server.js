@@ -47,6 +47,34 @@ app.get('/public/patriot.png', function(req, res){
     res.sendFile(path.join(__dirname, './public/patriot.png'))
 });
 
+app.get('/public/sadclaire.png', function(req, res){
+    res.sendFile(path.join(__dirname, './public/sadclaire.png'))
+});
+
+app.get('/public/nezuko.png', function(req, res){
+    res.sendFile(path.join(__dirname, './public/nezuko.png'))
+});
+
+app.get('/public/miku.jpg', function(req, res){
+    res.sendFile(path.join(__dirname, './public/miku.jpg'))
+});
+
+app.get('/public/generous.png', function(req, res){
+    res.sendFile(path.join(__dirname, './public/generous.png'))
+});
+
+app.get('/public/outreach.png', function(req, res){
+    res.sendFile(path.join(__dirname, './public/outreach.png'))
+});
+
+app.get('/public/charity.png', function(req, res){
+    res.sendFile(path.join(__dirname, './public/charity.png'))
+});
+
+app.get('/public/freedom.png', function(req, res){
+    res.sendFile(path.join(__dirname, './public/freedom.png'))
+});
+
 app.get('/styles/css.css', function(req, res){
     res.sendFile(path.join(__dirname, './styles/css.css'))
 })
@@ -64,5 +92,5 @@ app.get('/js/three.r119.min.js', function(req, res){
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Nakano listening on port ${port}`)
 })
